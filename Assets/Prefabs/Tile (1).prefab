@@ -107,6 +107,9 @@ MonoBehaviour:
   - {fileID: 857779327251732012, guid: 638d3bd4679e34f8ba43277de50af314, type: 3}
   - {fileID: 3825752689756085014, guid: 638d3bd4679e34f8ba43277de50af314, type: 3}
   hoverAmount: 0.03
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!61 &-9213342052484849332
 BoxCollider2D:
   m_ObjectHideFlags: 0

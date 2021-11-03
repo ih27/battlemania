@@ -9,6 +9,8 @@ public class Tile : MonoBehaviour
 
     public float hoverAmount;
 
+    public LayerMask obstacleLayer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,5 +33,17 @@ public class Tile : MonoBehaviour
     private void OnMouseExit()
     {
         transform.localScale -= Vector3.one * hoverAmount;
+    }
+
+    public bool IsClear()
+    {
+        Collider2D obstacle = Physics2D.OverlapCircle(transform.position, 0.2f, obstacleLayer);
+        if (obstacle != null)
+        {
+            return false;
+        } else
+        {
+            return true;
+        }            
     }
 }
