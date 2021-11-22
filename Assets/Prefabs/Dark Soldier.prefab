@@ -96,6 +96,7 @@ MonoBehaviour:
   selected: 0
   tileSpeed: 3
   hasMoved: 0
+  moveSpeed: 5
 --- !u!1 &7310752809326721058
 GameObject:
   m_ObjectHideFlags: 0
