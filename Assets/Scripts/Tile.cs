@@ -11,12 +11,18 @@ public class Tile : MonoBehaviour
 
     public LayerMask obstacleLayer;
 
+    public Color highlightedColor;
+    public bool isWalkable;
+    GameMaster gm;
+
     // Start is called before the first frame update
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();
         int randTile = Random.Range(0, tileGraphics.Length);
         rend.sprite = tileGraphics[randTile];
+
+        gm = FindObjectOfType<GameMaster>();
     }
 
     // Update is called once per frame
@@ -45,5 +51,17 @@ public class Tile : MonoBehaviour
         {
             return true;
         }            
+    }
+
+    public void Highlight()
+    {
+        rend.color = highlightedColor;
+        isWalkable = true;
+    }
+
+    public void Reset()
+    {
+        rend.color = Color.white;
+        isWalkable = false;
     }
 }

@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{2E80D483-5AD7-8505-F485-A261916C206D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Tile.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameMaster.cs">
     <Files>
-      <File FileName="Assets/Scripts/Tile.cs" Line="44" Column="10" />
+      <File FileName="Assets/Scripts/Tile.cs" Line="65" Column="28" />
+      <File FileName="Assets/Scripts/GameMaster.cs" Line="7" Column="30" />
+      <File FileName="Assets/Scripts/Unit.cs" Line="16" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +11,7 @@
           <Node name="BattleMania" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Tile.cs" selected="True" />
+                <Node name="GameMaster.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -19,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1e79237a-d665-4b8a-b0b1-fea5aa1e968d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ce7a1d26-03d8-4d38-9066-e4b6b86d2456" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

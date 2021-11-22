@@ -64,7 +64,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameMaster.cs" />
     <Compile Include="Assets\Scripts\Tile.cs" />
+    <Compile Include="Assets\Scripts\Unit.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/ihasanov/Desktop/BattleMania/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
